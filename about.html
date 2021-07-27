@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/icon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=DotGothic16&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/542daff3ff.js" crossorigin="anonymous"></script>
+    <script src="js/jquery.js" type="text/javascript"></script> 
+    <script src="js/jquery-ui.js" type="text/javascript"></script> 
+    <script src="js/jquery.mousewheel.js" type="text/javascript"></script> 
+    <script type="text/javascript"> 
+        $(document).ready(function(){
+            $('#logoheaderimg').draggable();
+        });
+    </script> 
+    <title>Tom</title>
+</head>
+<body>
+    <div class="cursor"></div>
+    <header>
+        <nav>
+            <ul class="nav-links">
+                <li><a class="nav-link" href="./index.html">Home</a></li>
+                <li><a class="nav-link" href="./about.html">About</a></li>
+                <span class="sign-up">
+                    <li><a class="nav-link" href="https://www.fiverr.com/tommasoromanzi">Fiverr</a></li>
+                </span>
+            </ul>
+        </nav>
+    </header>
+    <div class="home">
+        <main>
+            <section class="presentation">
+                <div class="introduction">
+                    <div class="intro-text">
+                        <h1>Tommaso Romanzi</h1>
+                        <p>
+                            Hi, I'm Tommaso a 16 years old programmer. I started 1 year ago with the web technologies. I learned HTML5 <i class="fab fa-html5"></i>, CSS3 <i class="fab fa-css3-alt"></i>, JavaScript <i class="fab fa-js"></i>, Bootstrap <i class="fab fa-bootstrap"></i>, Python <i class="fab fa-python"></i> and Swift <i class="fab fa-swift"></i>. I created a website for a school project <a href="ottavianoilgrande.it">ottavianoilgrande.it</a>
+                        </p>
+                    </div>
+                    <div class="cta">
+                        <button class="cta-select"><a href="mailto:tommasoromanzi@icloud.com" style="text-decoration: none; color: #7b7b91;font-family: 'Poppins', sans-serif;">Email Me</a></button>
+                    </div>
+                </div>
+                <div class="cover">
+                    
+<div class="slideshow-container">
+    <br><br>
+    <div class="mySlides fade">
+        <a href="https://www.fiverr.com/share/xDAB74">
+             <img src="./images/Schermata 2021-05-08 alle 12.48.25.png" style="height: 300px;">
+        </a>
+    </div>
+    
+    </div>
+    <br>
+          </div>
+            </section>
+            <div class="copyright">
+                <p style="color: #6f6f89;">&copy; 2021 Tom</p>
+            </div>
+
+            <img class="big-circle" src="./images/big-eclipse.svg" alt="" />
+            <img class="medium-circle" src="./images/mid-eclipse.svg" alt="" />
+            <img class="small-circle" src="./images/small-eclipse.svg" alt="" />
+        </main>
+    </div>
+
+    <script type="text/JavaScript" src="js/cloud-carousel.1.0.5.js"></script> 
+    <script> 
+    $(document).ready(function(){	   
+        // This initialises carousels on the container elements specified, in this case, carousel1.
+        $("#carousel1, #carousel2").CloudCarousel(		
+        {			
+                xPos: 200,
+                yPos: 100,
+                bringToFront:true,
+                
+                titleBox: $("#title-text1, #title-text2"),
+                mouseWheel:true
+        });
+    });
+    </script> 
+    <script src="./app.js"></script>
+</body>
+</html>
